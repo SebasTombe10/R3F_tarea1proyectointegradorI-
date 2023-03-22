@@ -52,18 +52,18 @@ export function Experience(){
         </mesh>
         
         //Cuadro que gira en eje x
-        <mesh ref={boxRef} position={[4,6.5,0]}>
-            <boxGeometry args={[2, 2, 2]}/>
+        <mesh ref={boxRef} position={[8,6.5,0]}>
+            <boxGeometry args={[4, 4, 4]}/>
             <meshStandardMaterial color={"mediumpurple"} envMapIntensity={0.5} roughness={0.2} metalness={0.8}/>
         </mesh>
 
         <mesh position={[0,6.5,0]} >
-            <sphereGeometry args={[1.5, 32, 64]}/>
+            <sphereGeometry args={[2.5, 42, 64]}/>
             <meshStandardMaterial color={"mediumpurple"} envMapIntensity={0.5} roughness={0.2} metalness={0.8}/>
         </mesh>
 
-        <mesh position={[-4,6.5,0]}>
-         <coneGeometry args={[2, 2, 2,2]} />
+        <mesh position={[-8,6.5,0]}>
+         <coneGeometry args={[2, 5, 23]} />
          <meshStandardMaterial color={"mediumpurple"} envMapIntensity={0.5} roughness={0.2} metalness={0.8}/>
         </mesh>
 
